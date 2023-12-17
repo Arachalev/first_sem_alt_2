@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bodyContainer">
+    <main class="mainContainer">
+      <div class="heading">
+        <img src="./assets/logo.svg" class="logo" alt="logo" srcset="" />
+        <h2>For Individuals</h2>
+        <p class="subText1">
+          Inspiring wholesome harmony for the mind,<br />
+          body and spirit, for everyone, everywhere.
+        </p>
+        <p class="subText2">
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+      </div>
+      <div class="formContainer">
+        <form action="" class="mainForm">
+          <div class="inputContainer">
+            <label for="fName">First Name</label>
+            <input
+              class="inputEl"
+              type="text"
+              name="fName"
+              id="fName"
+              placeholder="test"
+            />
+          </div>
+          <div class="inputContainer">
+            <label for="lName">Last Name</label>
+            <input class="inputEl" type="text" name="lName" id="lName" />
+          </div>
+          <div class="inputContainer">
+            <label for="gender">Gender</label>
+            <div class="selectContainer">
+              <select name="gender" id="gender">
+                <option value="placeholder" selected hidden disabled>
+                  Select here
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class="inputContainer">
+            <label for="dob">Date of Birth</label>
+            <input
+              class="inputEl"
+              type="date"
+              name="dob"
+              id="dob"
+              placeholder=""
+            />
+          </div>
+          <div class="inputContainer">
+            <label for="weight">Weight (KG)</label>
+            <input
+              type="text"
+              name="weight"
+              id="weight"
+              class="inputEl"
+              placeholder="Enter Weight"
+            />
+          </div>
+          <div class="inputContainer">
+            <label for="height">Height (CM)</label>
+            <input
+              type="text"
+              name="height"
+              id="height"
+              class="inputEl"
+              placeholder="Enter height here..."
+            />
+          </div>
+          <div class="inputContainer responsiveContainer">
+            <label for="activity">Activity Level</label>
+            <div class="selectContainer">
+              <select name="activity" id="activity">
+                <option value="placeholder" selected hidden disabled>
+                  Select here
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class="inputContainer responsiveContainer">
+            <label for="pwd">Password</label>
+            <div class="pwdtContainer">
+              <input type="password" name="pwd" id="pwd" />
+              <img src="./assets/show.svg" alt="hide icon" srcset="" />
+            </div>
+          </div>
+
+          <button class="submitBtn responsiveContainer" type="submit">
+            Register
+          </button>
+        </form>
+        <div>
+          <p class="termsText">
+            By clicking Register, you agree to our
+            <a href=""> Terms of Use </a> and our <a href=""> Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
